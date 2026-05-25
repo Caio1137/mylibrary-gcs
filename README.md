@@ -14,7 +14,7 @@ Sistema fullstack de biblioteca pessoal desenvolvido para a atividade integrada 
 
 ```bash
 cd backend
-mvn spring-boot:run
+.\mvnw.cmd spring-boot:run
 ```
 
 A API fica disponível em `http://localhost:8080/api`.
