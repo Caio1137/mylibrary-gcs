@@ -23,8 +23,8 @@ A API fica disponível em `http://localhost:8080/api`.
 
 ```bash
 cd frontend
-npm install
-npm start
+npm.cmd install
+npm.cmd start
 ```
 
 O Angular fica disponível em `http://localhost:4200`.
