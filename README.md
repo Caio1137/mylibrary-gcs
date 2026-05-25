@@ -14,7 +14,7 @@ Sistema fullstack de biblioteca pessoal desenvolvido para a atividade integrada 
 
 ```bash
 cd backend
-mvn spring-boot:run
+.\mvnw.cmd spring-boot:run
 ```
 
 A API fica disponível em `http://localhost:8080/api`.
@@ -23,8 +23,8 @@ A API fica disponível em `http://localhost:8080/api`.
 
 ```bash
 cd frontend
-npm install
-npm start
+npm.cmd install
+npm.cmd start
 ```
 
 O Angular fica disponível em `http://localhost:4200`.
@@ -53,14 +53,3 @@ O Angular fica disponível em `http://localhost:4200`.
 - `POST /api/emprestimos/emprestar`
 - `POST /api/emprestimos/{id}/devolver`
 - `GET /api/dashboard`
-
-## Entrega GCS
-
-O repositório deve ser publicado como `mylibrary-gcs` no GitHub. Depois de enviar o código, configure no GitHub:
-
-- Issues #1, #2, #3 e #4 conforme o enunciado.
-- Pull Requests das branches `feature/crud-categorias`, `feature/crud-livros` e `feature/emprestimos` para `develop`.
-- Branch protection no `main` exigindo Pull Request e status checks.
-- GitHub Release `v1.0.0`.
-
-As tags locais `v0.1.0`, `v1.0.0` e `v1.0.1` já representam o fluxo solicitado.
